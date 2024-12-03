@@ -1,0 +1,15 @@
+I need it to be a food delivery app.
+it should have 3 categories in the menu 
+1. Make your own Burger.
+and when I select the burger I should be asked what kind of bun(give 3 options with radio buttons).
+next option is select the meat(chicken patty, beef patty, pork patty, veg patty. use radio button to select).
+use check boxes to select the pickle, chille sauce, mustard sauce, special sauce, buffalo sauce, mayo.
+option to double stack the burger.
+Now have an option to add this to the cart with pricing ($1 for each option selected).
+In the cart we should have the option to add more. Clicking on the option will redirect us to the menu.
+2. Make your own Pizza.
+If I select the pizza,My options would be.
+Base choice: Hand tossed, fresh pan, cheese crust. use radio buttons.
+toppings: bannana peppers
+
+3. Make your own pasta.

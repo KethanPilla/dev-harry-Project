@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie! - Your Favorite Orders</title>
+
+    <!-- Normalize.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.jpg" alt="Logo" class="logo-img">
+                Foodie!
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="hamburger">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" id="navLinks">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html"><i class="bi bi-house-fill"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recent-orders.html"><i class="bi bi-clock-history"></i> Recent Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="promotions.html"><i class="bi bi-tags-fill"></i> Promotions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <header class="text-center my-5">
+        <h1>Welcome to Foodie!</h1>
+        <p>Just eat and forget everything else.</p>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Content Start -->
+    <main class="container my-5">
+        <h2>Your Favorite Order</h2>
+        <p>Load and modify your last order below:</p>
+        <button id="loadOrderBtn" class="btn btn-primary mb-4">Load Last Order</button>
+        <form id="orderForm">
+            <!-- Customer Name -->
+            <div class="mb-3">
+                <label for="customerName" class="form-label">Customer Name:</label>
+                <input type="text" id="customerName" name="customerName" class="form-control" placeholder="Enter your name">
+            </div>
+            <!-- Contact Number -->
+            <div class="mb-3">
+                <label for="contactNumber" class="form-label">Contact Number:</label>
+                <input type="tel" id="contactNumber" name="contactNumber" class="form-control" placeholder="Enter your phone number">
+                <small class="form-text text-muted">This input is mobile-friendly.</small>
+            </div>
+            <!-- Delivery Address -->
+            <div class="mb-3">
+                <label for="deliveryAddress" class="form-label">Delivery Address:</label>
+                <textarea id="deliveryAddress" name="deliveryAddress" class="form-control" rows="2" placeholder="Enter your address"></textarea>
+            </div>
+            <!-- Delivery Time -->
+            <div class="mb-3">
+                <label for="deliveryTime" class="form-label">Preferred Delivery Time:</label>
+                <input type="datetime-local" id="deliveryTime" name="deliveryTime" class="form-control">
+            </div>
+            <!-- Order Items -->
+            <div id="orderItems">
+                <!-- Items will be dynamically added here -->
+            </div>
+            <!-- Add Item Button -->
+            <button type="button" id="addItemBtn" class="btn btn-secondary mb-3">Add Item</button>
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-success">Submit Order</button>
+        </form>
+        <!-- Display updated order -->
+        <div id="updatedOrder" class="mt-5">
+            <!-- The updated order will be displayed here -->
+        </div>
+    </main>
+    <!-- Main Content End -->
+
+    <!-- Footer Start -->
+    <footer class="footer bg-dark text-white text-center py-3">
+        <p>Developed by Kethan Pilla</p>
+        <p>&copy; 2024 Kethan Pilla. All rights reserved.</p>
+        <p><a href="https://github.com/KethanPilla/foodie-app" target="_blank" class="text-white"><i class="bi bi-github"></i> GitHub Repository</a></p>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
