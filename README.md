@@ -27,7 +27,7 @@ Foodie! is a web-based, mobile-responsive food delivery application that allows 
 ## Installation
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/KethanPilla/foodie-app.git
+    git clone https://github.com/KethanPilla/dev-harry-Project.git
     ```
 2. **Navigate to the Project Directory**
     ```bash
