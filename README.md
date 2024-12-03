@@ -1,4 +1,4 @@
-# Foodie! - Your Favorite Orders
+# Foodie! - Just eat and forget everything else
 
 ![Logo](images/logo.jpg)
 
