@@ -22,7 +22,7 @@ Foodie! is a web-based, mobile-responsive food delivery application that allows 
   - **Pasta**: Choose from various pasta dishes.
 - **Cart Management**: Add multiple items to the cart, adjust quantities, and remove items.
 - **Responsive Design**: Seamless experience across devices with mobile-specific inputs.
-- **Realistic Promotions**: Check out the latest promotions available.
+- **Promotions**: Check out the latest promotions available.
 
 ## Installation
 1. **Clone the Repository**
