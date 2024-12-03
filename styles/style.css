@@ -1,0 +1,64 @@
+/* styles/style.css */
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Logo Image */
+.logo-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+/* Header Styles */
+header {
+    margin-top: 30px;
+}
+
+/* Footer Styles */
+.footer {
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+#orderForm {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Updated Order Display */
+#updatedOrder {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Cart Styles */
+#cart table {
+    width: 100%;
+}
+
+#cart th, #cart td {
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    #orderForm {
+        padding: 0 15px;
+    }
+
+    .card-header {
+        font-size: 1rem;
+    }
+}

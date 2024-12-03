@@ -1,0 +1,24 @@
+{
+    "Burger": {
+        "basePrice": 5.00,
+        "options": {
+            "bun": ["Sesame", "Whole Wheat", "Gluten-Free"],
+            "meat": ["Chicken Patty", "Beef Patty", "Pork Patty", "Veg Patty"],
+            "sauces": ["Pickle", "Chili Sauce", "Mustard Sauce", "Special Sauce", "Buffalo Sauce", "Mayo"],
+            "doubleStack": false
+        }
+    },
+    "Pizza": {
+        "basePrice": 5.99,
+        "options": {
+            "base": ["Hand Tossed", "Fresh Pan", "Cheese Crust"],
+            "toppings": ["Banana Peppers", "Olives", "Mushrooms"]
+        }
+    },
+    "Pasta": {
+        "basePrice": 10.99,
+        "options": {
+            "types": ["Fettuccine Alfredo", "Lasagne", "Macaroni Cheese"]
+        }
+    }
+}
